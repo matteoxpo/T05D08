@@ -183,7 +183,7 @@ Looks like you'll have to fix it.
 
 \> *I've dreamed of fixing maxmin modules my whole life.* 
 
-***== Quest 1 received. Make corrections in the src/maxmin.c program so it compiles itself and works correctly (finds max and min out of 3 numbers and displays them on the screen). Do not change the structure of the program. ==***
+***== Quest 1 received. Make corrections in the src/maxmin.c program so it compiles itself and works correctly (finds max and min out of 3 numbers and displays them on the screen). Do not change the structure of the program. In case of incorrect input, you must output n/a. ==***
 
 ***LOADING…***
 
@@ -219,7 +219,7 @@ This one also needs to be fixed.
 
 ...
 
-***== Quest 2 received. Make corrections in the src/squaring.c program so it compiles itself and works correctly (receives an array of integers via stdin, squares them and outputs the result to stdout). Decreasing the decomposition is not allowed–you can add functions if needed, but you cannot delete them. ==***
+***== Quest 2 received. Make corrections in the src/squaring.c program so it compiles itself and works correctly (receives an array of integers via stdin, squares them and outputs the result to stdout). In case of incorrect input, you must output n/a. Decreasing the decomposition is not allowed–you can add functions if needed, but you cannot delete them. ==***
 
 ***LOADING…***
 
@@ -252,7 +252,7 @@ Your dear crazy friend hasn't left one here. You'll have to guess and figure it 
 
 ...
 
-***== Quest 3 received. Add implementations of the necessary functions into the src/stat.c program so it compiles itself and works correctly (receives an array of integers via stdin, displays it, calculates and displays a set of statistical metrics – maxima and minima, the expected value, and variance). Decreasing the decomposition is not allowed – you can add functions if needed, but you cannot delete them. Stick to the recommended program structure. ==***
+***== Quest 3 received. Add implementations of the necessary functions into the src/stat.c program so it compiles itself and works correctly (receives an array of integers via stdin, displays it, calculates and displays a set of statistical metrics – maxima and minima, the expected value, and variance). In case of incorrect input, you must output n/a. Decreasing the decomposition is not allowed – you can add functions if needed, but you cannot delete them. Stick to the recommended program structure. ==***
 
 ***LOADING…***
 
@@ -284,7 +284,7 @@ Just comments. No code. Looks like you need to implement it to move forward.
 
 ...
 
-***== Quest 4 received. Implement the src/search.c program in accordance with the comment. The program has to receive an array of integers via stdin and find a number that meets the following requirements in that array: even number, equal to or above the expected value, follows the three-sigma rule, does not equal 0. The number it finds must be output to stdout. If such number does not exist, the program must output 0. During the development, stick to the ideas of decomposition from previous quests; you are welcome to reuse the functions that have already been developed. The functions must be simple and compact and take up no more than 20–30 lines of code. ==***
+***== Quest 4 received. Implement the src/search.c program in accordance with the comment. The program has to receive an array of integers via stdin and find a number that meets the following requirements in that array: even number, equal to or above the expected value, follows the three-sigma rule, does not equal 0. The number it finds must be output to stdout. If such number does not exist, the program must output 0. The maximum number of numbers entered is 30. In case of incorrect input, you must output n/a. During the development, stick to the ideas of decomposition from previous quests; you are welcome to reuse the functions that have already been developed. The functions must be simple and compact and take up no more than 20–30 lines of code. ==***
 
 ***LOADING…***
 
