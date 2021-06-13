@@ -22,7 +22,7 @@ The russian version of the task can be found in the repository.
 4. [Chapter IV](#chapter-iv)
 
 
-## Chapter I
+# Chapter I
 
 ## Level 2. Room 1.
 
@@ -66,7 +66,7 @@ The unformalized nature of it gives you chills.
 ***LOADING...***
 
 
-## Chapter II
+# Chapter II
 
 ## List 1. Pointer.
 
@@ -165,7 +165,7 @@ Not at all. Just a friendly conversation between a narrator and a player. Nothin
 ***LOADING...***
 
 
-## Chapter III
+# Chapter III
 
 ## Quest 1. Arguments and pointers.
 
@@ -289,7 +289,7 @@ Just comments. No code. Looks like you need to implement it to move forward.
 ***LOADING…***
 
 
-## Chapter IV.
+# Chapter IV.
 
 \> *No good will come of this. Ready.*
 

@@ -21,7 +21,7 @@
 4. [Chapter IV](#chapter-iv)
 
 
-## Chapter I
+# Chapter I
 
 ## Level 2. Room 1.
 
@@ -65,7 +65,7 @@ LOADING Room 1…***
 ***LOADING...***
 
 
-## Chapter II
+# Chapter II
 
 ## List 1. Pointer.
 
@@ -164,7 +164,7 @@ LOADING Room 1…***
 ***LOADING...***
 
 
-## Chapter III
+# Chapter III
 
 ## Quest 1. Arguments and pointers.
 
@@ -288,7 +288,7 @@ LOADING Room 1…***
 ***LOADING…***
 
 
-## Chapter IV.
+# Chapter IV.
 
 \> *Добром это не кончится. Готово.*
 
