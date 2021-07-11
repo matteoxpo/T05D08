@@ -1,6 +1,8 @@
 # T05D08
 The russian version of the task can be found in the repository.
 
+You can find some useful video materials [here](https://edu.21-school.ru/video/selection/5d943ff8-2aba-4808-9aca-346080a11442).
+
 ![day5_door](misc/eng/images/day5_door.png)
 
 
@@ -79,8 +81,7 @@ The unformalized nature of it gives you chills.
 
 ## List 2. Listing.
 
-    void main()
-    {
+    void main() {
         int a = 2;      // a == 2
         int b = 4;      // b == 4
         int *p = 0;     // p == 0
@@ -135,8 +136,7 @@ It looks a lot like a madman's diary. It's got to be.
 
 ## List 5. Equality.
 
-    void main()
-    {
+    void main() {
         int a[10];
         a[2] == *(a + 2) == *(2 + a) == 2[a]; //!!!!!!!!!!!!!!!
     }
@@ -183,7 +183,15 @@ Looks like you'll have to fix it.
 
 \> *I've dreamed of fixing maxmin modules my whole life.* 
 
+\> *Open a reminder*
+> DON'T FORGET! All your programs are tested for the style norm and memory leaks. Start-up instructions
+> the list of tests is also in the `materials` folder
+
 ***== Quest 1 received. Make corrections in the src/maxmin.c program so it compiles itself and works correctly (finds max and min out of 3 numbers and displays them on the screen). Do not change the structure of the program. In case of incorrect input, you must output n/a. ==***
+
+| Input | Output |
+| ------ | ------ |
+| 1 2 3 | 3 1 |
 
 ***LOADING…***
 
@@ -221,6 +229,10 @@ This one also needs to be fixed.
 
 ***== Quest 2 received. Make corrections in the src/squaring.c program so it compiles itself and works correctly (receives an array of integers via stdin, squares them and outputs the result to stdout). In case of incorrect input, you must output n/a. Decreasing the decomposition is not allowed–you can add functions if needed, but you cannot delete them. ==***
 
+| Input | Output |
+| ------ | ------ |
+| 3<br/>1 2 3 | 1 4 9 |
+
 ***LOADING…***
 
 
@@ -252,7 +264,17 @@ Your dear crazy friend hasn't left one here. You'll have to guess and figure it 
 
 ...
 
-***== Quest 3 received. Add implementations of the necessary functions into the src/stat.c program so it compiles itself and works correctly (receives an array of integers via stdin, displays it, calculates and displays a set of statistical metrics – maxima and minima, the expected value, and variance). In case of incorrect input, you must output n/a. Decreasing the decomposition is not allowed – you can add functions if needed, but you cannot delete them. Stick to the recommended program structure. ==***
+***== Quest 3 received. Add implementations of the necessary functions into 
+the src/stat.c program so it compiles itself and works correctly (receives 
+an array of integers via stdin, displays it, calculates and displays on the new line a set 
+of statistical metrics – maxima and minima, the expected value, and variance). 
+In case of incorrect input, you must output n/a. Decreasing the decomposition 
+is not allowed – you can add functions if needed, but you cannot delete them. 
+Stick to the recommended program structure. ==***
+
+| Input | Output |
+| ------ | ------ |
+| 4<br/>1 2 3 4 | 1 2 3 4<br>4 1 2.5 1.25 |
 
 ***LOADING…***
 
@@ -285,6 +307,10 @@ Just comments. No code. Looks like you need to implement it to move forward.
 ...
 
 ***== Quest 4 received. Implement the src/search.c program in accordance with the comment. The program has to receive an array of integers via stdin and find a number that meets the following requirements in that array: even number, equal to or above the expected value, follows the three-sigma rule, does not equal 0. The number it finds must be output to stdout. If such number does not exist, the program must output 0. The maximum number of numbers entered is 30. In case of incorrect input, you must output n/a. During the development, stick to the ideas of decomposition from previous quests; you are welcome to reuse the functions that have already been developed. The functions must be simple and compact and take up no more than 20–30 lines of code. ==***
+
+| Input | Output |
+| ------ | ------ |
+| 4<br/>1 2 3 4 | 4 |
 
 ***LOADING…***
 
