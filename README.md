@@ -166,7 +166,7 @@ Not at all. Just a friendly conversation between a narrator and a player. Nothin
 
 
 # Chapter III
-
+>**Attention!** In the quests of this day, it is forbidden to use dynamic memory.
 ## Quest 1. Arguments and pointers.
 
 \> *View the src folder in the repository*
