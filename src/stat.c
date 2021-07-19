@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define NMAX 10
 
-void input(int *a, int *n);
+int input(int *a, int *n);
 void output(int *a, int n);
 int max(int *a, int n);
 int min(int *a, int n);
@@ -13,7 +13,7 @@ void output_result(int max_v,
                    double mean_v,
                    double variance_v);
 
-void main()
+int main()
 {
     int n, data[NMAX];
     input(data, n);
@@ -22,6 +22,8 @@ void main()
                   min(data, n),
                   mean(data, n),
                   variance(data, n));
+
+    return 0;
 }
 
 

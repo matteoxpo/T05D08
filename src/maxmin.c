@@ -3,7 +3,7 @@
 void maxmin(int prob1, int prob2, int prob3, int *max, int min);
 
 /* Find a max & min probabilties */
-void main()
+int main()
 {
     int x, y, z;
     scanf("%d %d", x, y, z);
@@ -13,6 +13,8 @@ void main()
     maxmin(x, y, z, max, min);
 
     printf("%d %d", max, min);
+
+    return 0;
 }
 
 
