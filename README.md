@@ -187,7 +187,7 @@ Looks like you'll have to fix it.
 > DON'T FORGET! All your programs are tested for the style norm and memory leaks. Start-up instructions
 > the list of tests is also in the `materials` folder
 
-***== Quest 1 received. Make corrections in the src/maxmin.c program so it compiles itself and works correctly (finds max and min out of 3 numbers and displays them on the screen). Do not change the structure of the program. In case of incorrect input, you must output n/a. ==***
+***== Quest 1 received. Make corrections in the src/maxmin.c program so it compiles itself and works correctly (finds max and min out of 3 integer numbers and displays them on the screen). Do not change the structure of the program. In case of incorrect input, you must output n/a. ==***
 
 | Input | Output |
 | ------ | ------ |
@@ -270,11 +270,11 @@ an array of integers via stdin, displays it, calculates and displays on the new 
 of statistical metrics – maxima and minima, the expected value, and variance). 
 In case of incorrect input, you must output n/a. Decreasing the decomposition 
 is not allowed – you can add functions if needed, but you cannot delete them. 
-Stick to the recommended program structure. ==***
+Stick to the recommended program structure. Output floating-point numbers with an accuracy of 6 decimal places. ==***
 
 | Input | Output |
 | ------ | ------ |
-| 4<br/>1 2 3 4 | 1 2 3 4<br>4 1 2.5 1.25 |
+| 4<br/>1 2 3 4 | 1 2 3 4<br>4 1 2.500000 1.250000 |
 
 ***LOADING…***
 

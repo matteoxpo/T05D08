@@ -9,7 +9,6 @@ void main()
 {
     int n, data[NMAX];
     input(data, n);
-    output(data, n);
     squaring(data, n);
     output(data, n); 
 }
