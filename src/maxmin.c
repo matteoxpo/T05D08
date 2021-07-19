@@ -2,7 +2,7 @@
 
 void maxmin(int prob1, int prob2, int prob3, int *max, int min);
 
-/* Find a max & min probabilties */
+/* Find a max & min probabilities */
 int main()
 {
     int x, y, z;
