@@ -1,15 +1,15 @@
 #include <stdio.h>
 #define NMAX 10
 
-void input(double *a, int *n);
-void output(double *a, int n);
-double max(double *a, int n);
-double min(double *a, int n);
-double mean(double *a, int n);
-double variance(double *a, int n);
+void input(int *a, int *n);
+void output(int *a, int n);
+int max(int *a, int n);
+int min(int *a, int n);
+double mean(int *a, int n);
+double variance(int *a, int n);
 
-void output_result(double max_v,
-                   double min_v,
+void output_result(int max_v,
+                   int min_v,
                    double mean_v,
                    double variance_v);
 
