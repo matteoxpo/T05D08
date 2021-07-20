@@ -267,7 +267,7 @@ Your dear crazy friend hasn't left one here. You'll have to guess and figure it 
 ***== Quest 3 received. Add implementations of the necessary functions into 
 the src/stat.c program so it compiles itself and works correctly (receives 
 an array of integers via stdin, displays it, calculates and displays on the new line a set 
-of statistical metrics – maxima and minima, the expected value, and variance). 
+of statistical metrics – maxima and minima, the expected value, and variance, taking the distribution to be uniform). 
 In case of incorrect input, you must output n/a. Decreasing the decomposition 
 is not allowed – you can add functions if needed, but you cannot delete them. 
 Stick to the recommended program structure. Output floating-point numbers with an accuracy of 6 decimal places. ==***
