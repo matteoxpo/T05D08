@@ -22,7 +22,7 @@ int main() {
                   min(data, n),
                   mean(data, n),
                   variance(data, n));
-    } 
+    }
     return 0;
 }
 
@@ -72,7 +72,7 @@ int min(int *a, int n) {
 
 double mean(int *a, int n) {
     double M = 0;
-    for (int *p = a; p - a < n; p++){
+    for (int *p = a; p - a < n; p++) {
         M += ((double)(*p))/n;
     }
     return M;

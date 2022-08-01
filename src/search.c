@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #define NMAX 30
-//#define sigma(D) return sqrt(D);
+//  #define sigma(D) return sqrt(D);
 
 int input(int *a, int *n);
 void output(int *a, int n);
@@ -9,12 +9,12 @@ int max(int *a, int n);
 int min(int *a, int n);
 double mean(int *a, int n);
 double variance(int *a, int n);
-double sigma(double D);
 int search(int *a, int n);
-int treeSigmRule(int *a,int n, int *el);
+int treeSigmRule(int *a, int n, int *el);
+
 int main() {
     int n, data[NMAX];
-    if (input(data, &n)) { 
+    if (input(data, &n)) {
         printf("%d", search(data, n));
     }
     return 0;
@@ -64,7 +64,7 @@ int min(int *a, int n) {
 
 double mean(int *a, int n) {
     double M = 0;
-    for (int *p = a; p - a < n; p++){
+    for (int *p = a; p - a < n; p++) {
         M += ((double)(*p))/n;
     }
     return M;
@@ -78,12 +78,9 @@ double variance(int *a, int n) {
     return D;
 }
 
-double sigma(double D){ return sqrt(D); }
-
 int treeSigmRule(int *a, int n, int *el) {
-    if (*el - mean(a, n) <= 3 * sqrt(variance(a, n))){
+    if (*el - mean(a, n) <= 3 * sqrt(variance(a, n))) {
         return 1;
-        //printf("%d", *el);
     } else {
         return 0;
         printf("%d", *el);
