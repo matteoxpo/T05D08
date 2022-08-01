@@ -89,7 +89,7 @@ int treeSigmRule(int *a, int n, int *el) {
 
 int search(int *a, int n) {
     double M = mean(a, n);
-    for (int *p = a; p - a < n; p++) {          //&& treeSigmRule(a, n, p)
+    for (int *p = a; p - a < n; p++) {          
         if (*p % 2 == 0 && *p != 0 && *p >= M && treeSigmRule(a, n, p)) {
             return *p;
         }
