@@ -18,7 +18,7 @@ int main() {
 
 int input(int *a, int *n ) {
     char c = 0;
-    if (scanf("%d%c", n, &c) && c == '\n' && *n >= 0 && *n <= NMAX) {
+    if (scanf("%d%c", n, &c) == 2 && c == '\n' && *n >= 0 && *n <= NMAX) {
         for (int *p = a; p - a < *n; p++)
             if (scanf("%d%c", p, &c) && (c == ' ' || c == '\n' || c == EOF)) {
                 continue;
